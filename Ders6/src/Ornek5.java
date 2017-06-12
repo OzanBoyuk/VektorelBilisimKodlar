@@ -8,9 +8,11 @@ public class Ornek5 {
 		
 		Scanner sc = new Scanner(System.in);
 		int dizi[] = new int[5];
+		
 		for (int i = 0; i < dizi.length; i++) {
 			dizi[i] = sc.nextInt();
 		}
+		
 		for (int i = 0; i < dizi.length; i++) {
 			if (i==dizi.length-1) {
 				System.out.print(""+dizi[i]);
@@ -20,7 +22,7 @@ public class Ornek5 {
 		}
 		
 		for (int i = 0; i < dizi.length; i++) {
-			for (int j = i; j < dizi.length; j++) {
+			for (int j = i+1; j < dizi.length; j++) {
 				if (dizi[i] < dizi[j]) {
 					continue;
 				}else{
@@ -31,6 +33,7 @@ public class Ornek5 {
 				}
 			}
 		}
+		
 		System.out.println();
 		for (int i = 0; i < dizi.length; i++) {
 			
