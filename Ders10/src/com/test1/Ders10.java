@@ -5,7 +5,7 @@ import com.test2.ExampleC;
 public class Ders10 {
 //Tüm class lar Object sýnýfýndan miras alýr.
 	public static void main(String[] args) {
-		
+		//
 		ExampleA example = new ExampleA();
 		example.method2(); // public oldugu için görür
 		
