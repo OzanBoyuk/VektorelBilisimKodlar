@@ -1,4 +1,4 @@
-
+/*Generics*/
 public class Ders14 {
 
 	public static void main(String[] args) {
