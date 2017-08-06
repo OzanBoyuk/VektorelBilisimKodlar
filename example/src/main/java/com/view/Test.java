@@ -15,7 +15,7 @@ public class Test {
 		
 		Actor actor = new Actor();
 		
-		actor.setFirstName("java");
+		actor.setFirstName("Java");
 		actor.setLastName("Developer");
 		
 		baseDao.save(actor);

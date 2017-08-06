@@ -21,7 +21,6 @@ public class Test {
 		
 			
 			
-			
 			String query = "Select first_name from actor";
 			
 			Statement stmt = connection.createStatement(); //Connection uzerinden bir statement olusturursun
